@@ -92,19 +92,6 @@ model = load_model('/content/drive/MyDrive/pneumonia_model.h5')
 
 ---
 
-## 📷 Try the Interactive X-ray Classifier
-
-```python
-import gradio as gr
-def predict_image(image):
-    # Preprocess image and return model prediction
-    return prediction
-
-gr.Interface(fn=predict_image, inputs="image", outputs="label").launch()
-```
-
----
-
 ## 📊 Results Summary
 
 | Model          | Accuracy | Precision | Recall | F1 Score |
